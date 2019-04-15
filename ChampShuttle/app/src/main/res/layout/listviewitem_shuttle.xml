@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="150dp"
+    android:padding="20dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Name"
+        android:id="@+id/listitem_name_lbl"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="2dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Location"
+        android:id="@+id/listitem_location_lbl"
+        android:layout_below="@+id/listitem_name_lbl"
+        android:layout_alignLeft="@+id/listitem_name_lbl"
+        android:layout_alignStart="@+id/listitem_name_lbl"
+        android:paddingLeft="20dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_alignRight="@+id/listitem_name_lbl"
+        android:layout_alignEnd="@+id/listitem_name_lbl"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Movement"
+        android:id="@+id/listitem_movement_lbl"
+        android:layout_below="@+id/listitem_location_lbl"
+        android:layout_alignLeft="@+id/listitem_location_lbl"
+        android:layout_alignStart="@+id/listitem_location_lbl"
+        android:paddingLeft="20dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_alignRight="@+id/listitem_location_lbl"
+        android:layout_alignEnd="@+id/listitem_location_lbl" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Last update"
+        android:id="@+id/listitem_updated_lbl"
+        android:layout_below="@+id/listitem_movement_lbl"
+        android:layout_alignLeft="@+id/listitem_movement_lbl"
+        android:layout_alignStart="@+id/listitem_movement_lbl"
+        android:layout_alignRight="@+id/listitem_movement_lbl"
+        android:layout_alignEnd="@+id/listitem_movement_lbl"
+        android:paddingLeft="20dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp" />
+</RelativeLayout>

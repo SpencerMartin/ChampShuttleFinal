@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.josephmorrill.champshuttle.ShuttleSchedule">
+
+    <item android:id="@+id/menu_schedule_back"
+        android:title="Home"
+        android:titleCondensed="Home"
+        app:showAsAction="never"
+        android:alphabeticShortcut="string"
+        android:numericShortcut="string"
+        android:checkable="false"
+        android:visible="true"
+        android:enabled="true" />
+</menu>

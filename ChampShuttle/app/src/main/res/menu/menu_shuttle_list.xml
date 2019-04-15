@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.josephmorrill.champshuttle.ShuttleList"
+    android:background="@android:color/white"
+    >
+
+    <item android:id="@+id/menu_list_refresh"
+        android:title="Refresh"
+        android:titleCondensed="Refresh"
+        app:showAsAction="never"
+        android:alphabeticShortcut="string"
+        android:numericShortcut="string"
+        android:checkable="false"
+        android:visible="true"
+        android:enabled="true" />
+
+    <item android:id="@+id/menu_list_back"
+        android:title="Home"
+        android:titleCondensed="Home"
+        app:showAsAction="never"
+        android:alphabeticShortcut="string"
+        android:numericShortcut="string"
+        android:checkable="false"
+        android:visible="true"
+        android:enabled="true" />
+</menu>

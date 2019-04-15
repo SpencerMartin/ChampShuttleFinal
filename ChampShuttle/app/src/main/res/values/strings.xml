@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ChampShuttle</string>
+    <string name="data_url">http://shuttle.champlain.edu/shuttledata</string>
+    <string name="homepage_url">http://shuttle.champlain.edu/</string>
+    <string name="schedule_lakeside">2015LakesideScheduleFall.pdf</string>
+    <string name="schedule_spinner">2015SpinnerScheduleFall.pdf</string>
+    <string name="schedule_when">Fall 2015</string>
+    <string name="schedule_database">ShuttleTimes.db</string>
+
+    <string name="title_activity_shuttle_schedule">Shuttle Schedule</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_shuttle_list">Shuttle List</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_settings">Settings</string>
+</resources>

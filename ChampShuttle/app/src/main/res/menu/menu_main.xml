@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Main">
+
+    <item android:id="@+id/menu_home_refresh"
+        android:title="Refresh"
+        android:titleCondensed="Refresh"
+        app:showAsAction="ifRoom"
+        android:alphabeticShortcut="string"
+        android:numericShortcut="string"
+        android:checkable="false"
+        android:visible="true"
+        android:enabled="true" />
+
+    <item android:id="@+id/menu_home_recenter"
+        android:title="Recenter"
+        android:titleCondensed="Recenter"
+        app:showAsAction="ifRoom"
+        android:alphabeticShortcut="string"
+        android:numericShortcut="string"
+        android:checkable="false"
+        android:visible="true"
+        android:enabled="true" />
+
+    <item android:id="@+id/menu_home_shuttle_list"
+        android:title="Shuttle list"
+        android:titleCondensed="List"
+        app:showAsAction="ifRoom"
+        android:alphabeticShortcut="string"
+        android:numericShortcut="string"
+        android:checkable="false"
+        android:visible="true"
+        android:enabled="true" />
+
+    <item android:id="@+id/menu_home_shuttle_schedule"
+        android:title="Shuttle schedule"
+        android:titleCondensed="Schedule"
+        app:showAsAction="ifRoom"
+        android:alphabeticShortcut="string"
+        android:numericShortcut="string"
+        android:checkable="false"
+        android:visible="true"
+        android:enabled="true" />
+
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/action_share"
+        app:showAsAction="ifRoom"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>
+
+    <item
+        android:id="@+id/menu_home_send"
+        android:icon="@android:drawable/ic_menu_send"
+        app:showAsAction="ifRoom"
+        android:title="Send schedules"/>
+</menu>

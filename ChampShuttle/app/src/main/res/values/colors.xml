@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="transparent">#00ffff</drawable>
+    <drawable name="altercolor1">#ffffff</drawable>
+    <drawable name="altercolor2">#B8F2A5</drawable>
+    <drawable name="fieldcolor">#184675</drawable>
+</resources>
